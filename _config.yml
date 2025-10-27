@@ -26,7 +26,7 @@ github_username:  riggas-ionio
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+theme: minimal-mistakes
 plugins:
   - jekyll-feed
 

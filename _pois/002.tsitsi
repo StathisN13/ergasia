@@ -1,7 +1,11 @@
 ---
 layout: poi
-wikidatum: Q2297499
-title:  Κέρκυρα
+wikidatum: Q136486915
+title: Τσιτσιμπύρα
 ---
 
-Sample textψ
+# Παράδειγμα Κώδικα
+
+```python
+def hello():
+    print("Γειά σου κόσμε")

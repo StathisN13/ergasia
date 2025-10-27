@@ -3,14 +3,3 @@ layout: poi
 wikidatum: Q136486915
 title: Τσιτσιμπύρα
 ---
-
-<h1>{{ page.title }}</h1>
-<p>Αυτό είναι ένα παράδειγμα κώδικα που τρέχει:</p>
-
-<button onclick="sayHello()">Πάτησε με</button>
-
-<script>
-function sayHello() {
-  alert("Γειά σου κόσμε!");
-}
-</script>

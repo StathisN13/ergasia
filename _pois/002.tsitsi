@@ -1,7 +1,16 @@
 ---
 layout: poi
-wikidatum: Q2297499
-title:  Κέρκυρα
+wikidatum: Q136486915
+title: Τσιτσιμπύρα
 ---
 
-Sample textψ
+<h1>{{ page.title }}</h1>
+<p>Αυτό είναι ένα παράδειγμα κώδικα που τρέχει:</p>
+
+<button onclick="sayHello()">Πάτησε με</button>
+
+<script>
+function sayHello() {
+  alert("Γειά σου κόσμε!");
+}
+</script>

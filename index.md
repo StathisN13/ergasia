@@ -6,5 +6,5 @@ layout: home
 top_imge: https://upload.wikimedia.org/wikipedia/commons/9/94/Wide_brown_land_art-work.JPG
 ---
 <div style="text-align:center;">
-  <img src="/assets/images/corfu.jpg" alt="" style="max-width:80%; height:auto;">
+  <img src="/assets/corfu.jpg" alt="" style="max-width:80%; height:auto;">
 </div>

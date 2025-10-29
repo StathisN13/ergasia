@@ -21,3 +21,10 @@ top_imge: https://upload.wikimedia.org/wikipedia/commons/9/94/Wide_brown_land_ar
   {% endfor %}
 </ul>
 
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}

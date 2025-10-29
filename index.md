@@ -20,4 +20,3 @@ top_imge: https://upload.wikimedia.org/wikipedia/commons/9/94/Wide_brown_land_ar
     </li>
   {% endfor %}
 </ul>
-

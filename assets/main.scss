@@ -1,0 +1,48 @@
+---
+---
+
+@import "minima";
+
+
+body {
+  background-color: #f8f9fa; 
+  color: #222; 
+}
+
+a {
+  color: #28a745; 
+}
+
+a:hover {
+  color: #1d5fb8;
+}
+
+/* Header */
+.site-header {
+  background-color: #004080; /* σκούρο μπλε φόντο */
+}
+
+.site-title, .site-title:visited {
+  color: #fff !important; /* λευκός τίτλος */
+}
+
+/* Footer */
+.site-footer {
+  background-color: #e9ecef; /* γκρι φόντο */
+  color: #333;
+}
+
+/* Κουμπί μέσα στο footer */
+.btn-inline {
+  background-color: #2a7ae2;
+  color: #fff !important;
+  padding: 3px 8px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn-inline:hover {
+  background-color: #1d5fb8;
+}

@@ -19,7 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   Ο ιστοχώρος αυτός αναπτύχτηκε από τους Μουζακίτη Θεοδώρα και Νίνο Ευστάθιο
   στα πλαίσια εργασίας του μαθήματος Εργαλεία προβολής πολιτιστικού και τουριστικού προϊόντος
   του ΠΜΣ Ψηφιακές Εφαρμογές και Καινοτομία του Ιονίου Πανεπιστημίου. 
-  <a href="https://ionio.gr" target="_blank" class="btn">Ιόνιο Πανεπιστήμιο</a>
 baseurl: "/ergasia" # the subpath of your site, e.g. /blog
 url: "https://stathisn13.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb

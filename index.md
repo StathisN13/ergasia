@@ -9,4 +9,9 @@ top_imge: https://upload.wikimedia.org/wikipedia/commons/9/94/Wide_brown_land_ar
   <img src="{{ site.baseurl }}/assets/corfu.jpg" alt="" style="max-width:80%; height:auto;">
 </div>
 
+
 <a href="https://ionio.gr" target="_blank" rel="noopener">Ιόνιο Πανεπιστήμιο</a>
+
+
+Παραδοσιακά προϊόντα των επτανήσων που κάθε επισκέπτεις πρέπει να γνωρίζει με σκοπό κατά την
+επίσκεψή του να τα γευτεί. 

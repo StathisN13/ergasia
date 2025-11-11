@@ -2,11 +2,13 @@
 //  SCSS για Minima
 // -----------------------------
 
-$primary-color:      #004D98; // μπλε
-$accent-color:       #A50044; // κόκκινο
-$text-color:         #1A1A1A;
-$background-color:   #F5F5F5;
-$border-color:       #DDDDDD;
+$brand-color:       #A50044; // κόκκινο για links
+$brand-color-dark:  #7C0033; // πιο σκούρο red hover
+$text-color:        #1A1A1A; // σχεδόν μαύρο
+$background-color:  #F5F5F5; // ανοιχτό φόντο
+$grey-color:        #666666; // δευτερεύον κείμενο
+$grey-color-light:  #DDDDDD; // borders
+$grey-color-dark:   #333333; // για headers
 
 @import "minima";
 

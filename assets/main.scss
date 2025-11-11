@@ -34,7 +34,7 @@ a {
 // Header
 header.site-header {
   background-color: $brand-color; // κόκκινο
-  color: #EDBB00; // κίτρινο κείμενο
+  color: #EDBB00 !important; // κίτρινο κείμενο
   border-bottom: 4px solid $brand-color-dark;
 }
 

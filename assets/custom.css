@@ -1,55 +1,54 @@
-/* ==============================
-   Custom CSS για Minima
-   Κάνει τον τίτλο κίτρινο και το φόντο κόκκινο
-   ============================== */
+---
+---
 
-/* Τίτλος σελίδας */
-.site-title a {
-  color: #EDBB00 !important;
-}
 
-/* Κόκκινο φόντο όλης της σελίδας */
-body {
-  background-color: #A50044 !important;
-  color: #1A1A1A !important;
-}
 
-/* Header κόκκινο με κίτρινο κείμενο */
-header.site-header {
-  background-color: #A50044 !important;
-  color: #EDBB00 !important;
-  border-bottom: 4px solid #7C0033 !important;
-}
+$brand-color:       #A50044; // κόκκινο για links
+$brand-color-dark:  #7C0033; // πιο σκούρο red hover
+$text-color:        #1A1A1A; // σχεδόν μαύρο
+$background-color:  #F5F5F5; // ανοιχτό φόντο
+$grey-color:        #666666; // δευτερεύον κείμενο
+$grey-color-light:  #DDDDDD; // borders
+$grey-color-dark:   #333333; // για headers
 
-/* Footer */
-footer.site-footer {
-  background-color: #0C2340 !important;
-  color: #EDBB00 !important;
-}
+@import "minima"; // φόρτωσε το θέμα με τις νέες τιμές
 
-/* Links */
+/* 🔧 Πρόσθετα στυλ  */
 a {
-  color: #A50044 !important;
-  text-decoration: none !important;
-}
-a:hover {
-  color: #7C0033 !important;
-  text-decoration: underline !important;
+  color: $brand-color;
+  text-decoration: none;
+  &:hover {
+    color: $brand-color-dark;
+    text-decoration: underline;
+  }
 }
 
-/* Άρθρα / Τίτλοι άρθρων */
+header.site-header {
+  background-color: #004D98; //
+  color: #EDBB00;
+  border-bottom: 4px solid #A50044;
+}
+
+footer.site-footer {
+  background-color: #0C2340; // βαθύ μπλε
+  color: #EDBB00; // χρυσό/κίτρινο
+}
+
+.site-title a {
+  color: #EDBB00 !important; // χρυσό logo
+}
+
 .post-title {
-  color: #004D98 !important;
+  color: #004D98;
 }
 
-/* Κώδικας */
 code, pre {
-  background-color: #EAEAEA !important;
-  color: #0C2340 !important;
+  background-color: #EAEAEA;
+  color: #0C2340;
 }
 
-/* Blockquotes */
 blockquote {
-  border-left: 4px solid #A50044 !important;
-  color: #333333 !important;
+  border-left: 4px solid #A50044;
+  color: #333;
 }
+

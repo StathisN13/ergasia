@@ -1,0 +1,55 @@
+/* ==============================
+   Custom CSS για Minima
+   Κάνει τον τίτλο κίτρινο και το φόντο κόκκινο
+   ============================== */
+
+/* Τίτλος σελίδας */
+.site-title a {
+  color: #EDBB00 !important;
+}
+
+/* Κόκκινο φόντο όλης της σελίδας */
+body {
+  background-color: #A50044 !important;
+  color: #1A1A1A !important;
+}
+
+/* Header κόκκινο με κίτρινο κείμενο */
+header.site-header {
+  background-color: #A50044 !important;
+  color: #EDBB00 !important;
+  border-bottom: 4px solid #7C0033 !important;
+}
+
+/* Footer */
+footer.site-footer {
+  background-color: #0C2340 !important;
+  color: #EDBB00 !important;
+}
+
+/* Links */
+a {
+  color: #A50044 !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #7C0033 !important;
+  text-decoration: underline !important;
+}
+
+/* Άρθρα / Τίτλοι άρθρων */
+.post-title {
+  color: #004D98 !important;
+}
+
+/* Κώδικας */
+code, pre {
+  background-color: #EAEAEA !important;
+  color: #0C2340 !important;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 4px solid #A50044 !important;
+  color: #333333 !important;
+}

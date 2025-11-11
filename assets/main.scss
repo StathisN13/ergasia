@@ -25,13 +25,13 @@ a {
 
 header.site-header {
   background-color: #004D98; //
-  color: #EDBB00;
+  color: #EDBB00 !important;
   border-bottom: 4px solid #A50044;
 }
 
 footer.site-footer {
   background-color: #0C2340; // βαθύ μπλε
-  color: #EDBB00; // χρυσό/κίτρινο
+  color: #EDBB00 !important; // χρυσό/κίτρινο
 }
 
 .site-title a {

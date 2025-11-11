@@ -1,0 +1,30 @@
+/* ===== Εμφάνιση header ===== */
+.site-header {
+  background-color: #003366; /* Μπλε φόντο */
+  border-bottom: 3px solid #002244;
+}
+
+/* Τίτλος επάνω αριστερά */
+.site-title,
+.site-title:visited {
+  color: #ffffff !important;
+}
+
+/* Σύνδεσμοι του μενού */
+.site-nav a {
+  color: #ffffff !important;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.site-nav a:hover {
+  color: #00ffe1 !important;
+}
+
+/* === Γενικό φόντο σε όλο το site === */
+body {
+  background-color: #f8f1e5; /* απαλό γαλάζιο παράδειγμα */
+  color: #111; /* διατηρεί σωστή αντίθεση για το κείμενο */
+}

@@ -1,31 +1,33 @@
 // -----------------------------
-//  SCSS για Minima
+// Custom Minima theme overrides
 // -----------------------------
 
-$brand-color:       #A50044; // κόκκινο για links
-$brand-color-dark:  #7C0033; // πιο σκούρο red hover
-$text-color:        #1A1A1A; // σχεδόν μαύρο
-$background-color:  #F5F5F5; // ανοιχτό φόντο
-$grey-color:        #666666; // δευτερεύον κείμενο
+// Πρέπει να χρησιμοποιήσεις τα ίδια variable names
+$brand-color:       #A50044; // links
+$brand-color-dark:  #7C0033; // hover
+$text-color:        #1A1A1A; // main text
+$background-color:  #F5F5F5; // background
+$grey-color:        #666666; // secondary text
 $grey-color-light:  #DDDDDD; // borders
-$grey-color-dark:   #333333; // για headers
+$grey-color-dark:   #333333; // headers
 
-@import "minima";
+@import "minima"; // το κάνεις πάντα μετά τα variables
 
-// Custom overrides
+// Custom CSS overrides
 a {
-  color: $accent-color;
+  color: $brand-color;
   text-decoration: none;
+
   &:hover {
-    color: darken($accent-color, 20%);
+    color: $brand-color-dark;
     text-decoration: underline;
   }
 }
 
 header.site-header {
-  background-color: $primary-color;
+  background-color: #0C2340;
   color: #EDBB00;
-  border-bottom: 4px solid $accent-color;
+  border-bottom: 4px solid $brand-color;
 }
 
 footer.site-footer {
@@ -38,7 +40,7 @@ footer.site-footer {
 }
 
 .post-title {
-  color: $primary-color;
+  color: #0C2340;
 }
 
 code, pre {
@@ -47,6 +49,6 @@ code, pre {
 }
 
 blockquote {
-  border-left: 4px solid $accent-color;
+  border-left: 4px solid $brand-color;
   color: #333;
 }

@@ -54,3 +54,17 @@ blockquote {
   border-left: 4px solid $brand-color;
   color: #333;
 }
+/* Σιγουρεύουμε ότι τα links στο πάνω μενού φαίνονται */
+header.site-header .site-nav .page-link {
+  color: #EDBB00 !important;  /* το χρυσό σου */
+}
+
+header.site-header .site-nav .page-link:hover {
+  color: #FFFFFF !important;  /* λευκό hover */
+  text-decoration: underline;
+}
+
+/* Και ο τίτλος */
+header.site-header .site-title a {
+  color: #EDBB00 !important;
+}

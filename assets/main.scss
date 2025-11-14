@@ -54,14 +54,3 @@ blockquote {
   border-left: 4px solid $brand-color;
   color: #333;
 }
-
-/* Χρώμα τίτλων σε λευκό για συγκεκριμένες σελίδες */
-.page-title {
-  color: #FFFFFF !important;   /* άσπρο */
-}
-
-/* Ειδικά για την αρχική σελίδα: Παραδοσιακά προϊόντα → χρυσό */
-.home .page-title,
-.home h1 {
-  color: #EDBB00 !important;   /* χρυσό */
-}
